@@ -17,7 +17,7 @@ long_runtime_flag = False
 if runtime_minutes > 20:
     long_runtime_flag = True
 
-if (failure_rate <= 2 and runtime_minutes <= 20) or (failure_rate <= 2):
+if (failure_rate <= 2 and runtime_minutes <= 20):
     status = "Healthy"
 elif failure_rate <= 5:
     status = "Warning"
