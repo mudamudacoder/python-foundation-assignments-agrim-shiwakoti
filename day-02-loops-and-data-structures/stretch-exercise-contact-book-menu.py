@@ -12,7 +12,7 @@ contacts = {}
 while True:
     print("\nContact Book Menu:")
     print("1. Add Contact")
-    print("2. Search Contacts")
+    print("2. Search Contact")
     print("3. Delete Contact")
     print("4. Display All Contacts")
     print("5. Exit")
@@ -21,7 +21,7 @@ while True:
 
     # Adding contact
     if choice == '1':
-        name = input("Enter contact name: ").title()
+        name = input("Enter contact name: ").title() #title case to ensure consistent formatting of names
         phone = input("Enter contact phone number: ")
         email = input("Enter contact email: ")
         contacts[name] = {'phone': phone, 'email': email}
