@@ -18,3 +18,5 @@ This repository contains my assignments and practice exercises from the Python F
 - [x] Day 2: Collections
 - [x] Day 3: Functions and Modules
 - [x] Day 4: Error and Exception Handling
+- [x] Day 5: Classes and OOP
+- [X] Day 6: Inheritance, Polymorphism and Encapsulation
